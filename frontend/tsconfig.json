@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                // Compile en ESNext
+    "module": "ESNext",                // Utilise le module ESNext
+    "moduleResolution": "node",        // Résolution des modules comme dans Node.js
+    "jsx": "react-jsx",                // Support de JSX avec React 17+
+    "strict": true,                    // Active tous les checks de sécurité de TypeScript
+    "esModuleInterop": true,           // Permet l'importation d'exports CommonJS
+    "skipLibCheck": true,              // Ignore les vérifications des types dans les fichiers de lib
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"], // Inclusions des fichiers TS et TSX dans src
+  "exclude": ["node_modules"]             // Exclut node_modules
+}
